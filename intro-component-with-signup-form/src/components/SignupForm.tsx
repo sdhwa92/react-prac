@@ -9,7 +9,7 @@ function SignupForm() {
       <TextInput placeholder="Password" />
       <button
         type="button"
-        className="uppercase text-white w-full py-4 px-8 rounded-lg shadow-xl bg-green-500 hover:bg-green-600"
+        className="uppercase text-white w-full py-4 px-8 rounded-lg shadow-xl bg-green-500 active:bg-green-600"
       >
         Claim Your Free Trial
       </button>
