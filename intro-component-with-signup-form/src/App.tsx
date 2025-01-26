@@ -36,7 +36,7 @@ function App() {
                     <div className="w-full">
                       <button
                         type="button"
-                        className="bg-indigo-700 w-full py-4 px-8 rounded-lg shadow-lg"
+                        className="bg-indigo-700 hover:bg-indigo-800 w-full py-4 px-8 rounded-lg shadow-xl"
                       >
                         <p className="text-white">
                           <span className="font-bold">Try it free 7 days </span>
@@ -46,7 +46,7 @@ function App() {
                     </div>
 
                     <div className="w-full">
-                      <div className="bg-white p-5 rounded-lg shadow-lg">
+                      <div className="bg-white p-10 rounded-lg shadow-lg">
                         <SignupForm />
                       </div>
                     </div>
